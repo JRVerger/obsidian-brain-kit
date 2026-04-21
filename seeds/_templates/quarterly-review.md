@@ -31,18 +31,13 @@ Three sentences about this quarter:
 
 ## Projects Portfolio
 
+> Rellena con tus proyectos activos. Usa wikilinks tipo `[[NombreDelProyecto]]`.
+
 | Project | Status Q Start | Status Q End | Shipped? |
 |---------|---------------|--------------|----------|
-| [[Aura]] | | | |
-| [[Inky AI Tattoo Manager]] | | | |
-| [[Tattoo Desk]] | | | |
-| [[Reestructuracion Webs]] | | | |
-| [[Puzzle Deslizante]] | | | |
-| [[Xiaozhi ESP32]] | | | |
-| [[Museo Virtual]] | | | |
-| [[Tocadiscos]] | | | |
-| [[App Lista de Difusion]] | | | |
-| [[Test Capacidades HBDI]] | | | |
+|  | | | |
+|  | | | |
+|  | | | |
 
 ## Identity / Skills Growth
 - What am I better at now than 90 days ago?

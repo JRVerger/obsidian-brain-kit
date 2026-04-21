@@ -21,12 +21,12 @@ status: developing
 
 ## Projects Update
 
+> Rellena con tus proyectos activos. Usa wikilinks tipo `[[NombreDelProyecto]]`.
+
 | Project | Progress This Week | Next Week |
 |---------|-------------------|-----------|
-| [[Aura]] | | |
-| [[Inky AI Tattoo Manager]] | | |
-| [[Tattoo Desk]] | | |
-| [[Reestructuracion Webs]] | | |
+|  | | |
+|  | | |
 
 ## What I Learned
 -

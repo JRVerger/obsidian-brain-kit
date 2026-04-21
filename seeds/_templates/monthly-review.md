@@ -23,12 +23,12 @@ What were the biggest wins this month?
 
 ## Projects Shipped / Progress
 
+> Rellena con tus proyectos activos. Usa wikilinks tipo `[[NombreDelProyecto]]`.
+
 | Project | Status Start | Status End | Key Changes |
 |---------|--------------|------------|-------------|
-| [[Aura]] | | | |
-| [[Inky AI Tattoo Manager]] | | | |
-| [[Tattoo Desk]] | | | |
-| [[Reestructuracion Webs]] | | | |
+|  | | | |
+|  | | | |
 
 ## Goals Progress
 
