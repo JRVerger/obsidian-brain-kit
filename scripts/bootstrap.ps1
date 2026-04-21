@@ -37,7 +37,7 @@ $folders = @(
 foreach ($f in $folders) { New-Item -ItemType Directory -Path $f -Force | Out-Null }
 
 # ---------------------------------------------------------------------
-# 2. Plugins — descargar 12 community plugins desde GitHub releases
+# 2. Plugins - descargar 12 community plugins desde GitHub releases
 # ---------------------------------------------------------------------
 $plugins = @(
     @{ id = "dataview";                  repo = "blacksmithgu/obsidian-dataview" },
@@ -296,7 +296,7 @@ if (Test-Path $SeedsDir) {
     $Today = (Get-Date).ToString("yyyy-MM-dd")
     Write-Host "==> Copiando seeds desde $SeedsDir..." -ForegroundColor Yellow
 
-    # Templates — sin sobreescribir existentes
+    # Templates - sin sobreescribir existentes
     $tplSrc = Join-Path $SeedsDir "_templates"
     if (Test-Path $tplSrc) {
         Get-ChildItem -Path $tplSrc -Filter "*.md" -File | ForEach-Object {

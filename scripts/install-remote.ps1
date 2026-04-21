@@ -18,7 +18,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 Write-Host ""
-Write-Host "=== Obsidian Brain Kit — Instalador Remoto ===" -ForegroundColor Cyan
+Write-Host "=== Obsidian Brain Kit - Instalador Remoto ===" -ForegroundColor Cyan
 Write-Host ""
 
 # ---------------------------------------------------------------------
