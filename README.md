@@ -21,13 +21,25 @@ Deja cualquier carpeta con:
 - No lleva claves API ni secretos
 - No sobreescribe archivos que ya existan (es seguro re-ejecutar)
 
-## Uso rápido
+## Uso rápido — one-liner remoto (recomendado)
 
-### 1. Copia esta carpeta `obsidian-kit/` al otro equipo
+**Windows PowerShell (una sola línea):**
 
-Por USB, Dropbox, email, Git, lo que sea. Pesa pocos KB (los plugins se descargan en tiempo de setup, no van empaquetados).
+```powershell
+git clone https://github.com/JRVerger/obsidian-brain-kit.git $env:TEMP\obsidian-brain-kit; powershell -ExecutionPolicy Bypass -File "$env:TEMP\obsidian-brain-kit\scripts\install-remote.ps1"
+```
 
-### 2. Ejecuta el bootstrap
+Con ruta de vault custom:
+
+```powershell
+git clone https://github.com/JRVerger/obsidian-brain-kit.git $env:TEMP\obsidian-brain-kit; powershell -ExecutionPolicy Bypass -File "$env:TEMP\obsidian-brain-kit\scripts\install-remote.ps1" -VaultPath "D:\mis-notas"
+```
+
+> **Por qué `-ExecutionPolicy Bypass`:** Windows bloquea scripts `.ps1` por defecto. El flag lo ignora solo para este proceso, sin cambiar la política global del sistema.
+
+> **Si el repo está privado:** el primer `git clone` abre ventana del navegador → inicia sesión con la cuenta que tiene acceso. Git Credential Manager guarda la sesión para la próxima.
+
+## Uso manual (si ya tienes el kit local)
 
 **Bash (Git Bash en Windows / WSL / macOS / Linux):**
 

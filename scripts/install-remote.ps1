@@ -1,11 +1,14 @@
 # Instalador remoto de Obsidian Brain Kit
-# Clona el repo en temporal, corre el bootstrap en el vault especificado, limpia el temporal.
+# Clona el repo en %TEMP%, corre el bootstrap en el vault especificado.
 #
 # Uso en el otro equipo (una sola linea):
-#   iwr https://raw.githubusercontent.com/JRVerger/obsidian-brain-kit/main/scripts/install-remote.ps1 -OutFile install.ps1; .\install.ps1
+#   git clone https://github.com/JRVerger/obsidian-brain-kit.git $env:TEMP\obsidian-brain-kit; powershell -ExecutionPolicy Bypass -File "$env:TEMP\obsidian-brain-kit\scripts\install-remote.ps1"
 #
-# O si el repo es privado y no tienes PAT listo, usa git clone:
-#   git clone https://github.com/JRVerger/obsidian-brain-kit.git $env:TEMP\obsidian-kit; & "$env:TEMP\obsidian-kit\scripts\install-remote.ps1"
+# Con ruta de vault custom:
+#   git clone https://github.com/JRVerger/obsidian-brain-kit.git $env:TEMP\obsidian-brain-kit; powershell -ExecutionPolicy Bypass -File "$env:TEMP\obsidian-brain-kit\scripts\install-remote.ps1" -VaultPath "D:\mis-notas"
+#
+# IMPORTANTE: `powershell -ExecutionPolicy Bypass -File ...` evita el bloqueo
+# de Execution Policy de Windows sin cambiar la politica global del sistema.
 
 param(
     [string]$VaultPath = "$env:USERPROFILE\Desktop\proyectos claude",
