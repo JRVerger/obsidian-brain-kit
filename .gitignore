@@ -1,0 +1,5 @@
+# No content aqui — este repo es solo el kit, no un vault activo
+# Cachés de desarrollo por si clonas aqui mismo para testear
+.DS_Store
+Thumbs.db
+*.swp
